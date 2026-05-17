@@ -196,8 +196,8 @@ export default function Home() {
                     View Projects
                   </Link>
                   {content.resumeUrl ? (
-                    <a className="btn-secondary w-full sm:w-auto" href={content.resumeUrl}>
-                      Download Resume
+                    <a className="btn-secondary w-full sm:w-auto" href={content.resumeUrl} download>
+                      View Resume
                     </a>
                   ) : (
                     <a className="btn-secondary w-full sm:w-auto" href={`mailto:${content.contactEmail}`}>
